@@ -12,6 +12,9 @@
 		0913BFE42020EC58009FF1C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0913BFE22020EC58009FF1C8 /* Main.storyboard */; };
 		0913BFE62020EC58009FF1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0913BFE52020EC58009FF1C8 /* Assets.xcassets */; };
 		0913BFE92020EC58009FF1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0913BFE72020EC58009FF1C8 /* LaunchScreen.storyboard */; };
+		0913BFF42020F56C009FF1C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0913BFF62020F56C009FF1C8 /* InfoPlist.strings */; };
+		0913BFF92020F7FA009FF1C8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0913BFFB2020F7FA009FF1C8 /* Localizable.strings */; };
+		0913C0042020FC49009FF1C8 /* Cocido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0913C0062020FC49009FF1C8 /* Cocido.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,17 @@
 		0913BFE52020EC58009FF1C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0913BFE82020EC58009FF1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0913BFEA2020EC58009FF1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0913BFF02020EE5A009FF1C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		0913BFF12020EE5A009FF1C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0913BFF52020F56C009FF1C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0913BFFA2020F7FA009FF1C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0913BFFD2020F86E009FF1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0913BFFE2020FA3D009FF1C8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		0913BFFF2020FA3D009FF1C8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0913C0002020FA3D009FF1C8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0913C0012020FA3D009FF1C8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0913C0052020FC49009FF1C8 /* es */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = es; path = es.lproj/Cocido.jpg; sourceTree = "<group>"; };
+		0913C0072020FC55009FF1C8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fr; path = fr.lproj/Cocido.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,9 @@
 		0913BFDD2020EC58009FF1C8 /* PruebasI18n */ = {
 			isa = PBXGroup;
 			children = (
+				0913C0062020FC49009FF1C8 /* Cocido.jpg */,
+				0913BFFB2020F7FA009FF1C8 /* Localizable.strings */,
+				0913BFF62020F56C009FF1C8 /* InfoPlist.strings */,
 				0913BFDE2020EC58009FF1C8 /* AppDelegate.swift */,
 				0913BFE02020EC58009FF1C8 /* ViewController.swift */,
 				0913BFE22020EC58009FF1C8 /* Main.storyboard */,
@@ -107,6 +124,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 0913BFD22020EC58009FF1C8;
 			productRefGroup = 0913BFDC2020EC58009FF1C8 /* Products */;
@@ -123,7 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0913BFF92020F7FA009FF1C8 /* Localizable.strings in Resources */,
 				0913BFE92020EC58009FF1C8 /* LaunchScreen.storyboard in Resources */,
+				0913C0042020FC49009FF1C8 /* Cocido.jpg in Resources */,
+				0913BFF42020F56C009FF1C8 /* InfoPlist.strings in Resources */,
 				0913BFE62020EC58009FF1C8 /* Assets.xcassets in Resources */,
 				0913BFE42020EC58009FF1C8 /* Main.storyboard in Resources */,
 			);
@@ -148,6 +169,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				0913BFE32020EC58009FF1C8 /* Base */,
+				0913BFF02020EE5A009FF1C8 /* es */,
+				0913BFFE2020FA3D009FF1C8 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,8 +179,39 @@
 			isa = PBXVariantGroup;
 			children = (
 				0913BFE82020EC58009FF1C8 /* Base */,
+				0913BFF12020EE5A009FF1C8 /* es */,
+				0913BFFF2020FA3D009FF1C8 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0913BFF62020F56C009FF1C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0913BFF52020F56C009FF1C8 /* es */,
+				0913C0012020FA3D009FF1C8 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0913BFFB2020F7FA009FF1C8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0913BFFA2020F7FA009FF1C8 /* es */,
+				0913BFFD2020F86E009FF1C8 /* Base */,
+				0913C0002020FA3D009FF1C8 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		0913C0062020FC49009FF1C8 /* Cocido.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0913C0052020FC49009FF1C8 /* es */,
+				0913C0072020FC55009FF1C8 /* fr */,
+			);
+			name = Cocido.jpg;
+			path = ../../AppSwift/AppSwift/Assets.xcassets;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -167,6 +221,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -224,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.navigationItem.title = NSLocalizedString("TITULO_ESCENA_INICIAL", comment: "Hola traductor")
     }
 
     override func didReceiveMemoryWarning() {
